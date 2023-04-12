@@ -89,4 +89,4 @@ jobs:
           clientId: ${{ env.clientId }}
           secretValue: ${{ env.secretValue }}
           tenantId: ${{ env.tenantId }}
-          offerType: application_offer
+          offerType: 'application_offer'
