@@ -14,7 +14,7 @@ on:
 env:
   repoName: "azure.websphere-traditional.cluster"
   offerName: "20220323-zheng-test-offer"
-  planName: "Open Liberty\/WebSphere Liberty on AKS cluster"
+  planName: eap-aro
   clientId: ${{ secrets.CLIENT_ID }}
   secretValue: ${{ secrets.SECRET_VALUE }}
   tenantId: ${{ secrets.TENANT_ID }}
